@@ -47,7 +47,7 @@ function numCheck(field) {
     }
     document.querySelectorAll('td').forEach((element)=>{
         if(element.id){
-            element.innerText = factor * materials[element.id]["baseValue"]
+            element.innerText = factor * materials[element.id].baseValue
         }
     })
 }
