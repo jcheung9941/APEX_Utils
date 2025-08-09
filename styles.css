@@ -1,0 +1,19 @@
+
+body {
+    background-color: #9e9e9e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+input {
+    max-width: 50px;
+    text-align: center;
+}
+table, th, td {
+    border: #cdc9e4 1px solid;
+}

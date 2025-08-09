@@ -1,0 +1,50 @@
+<!-- If you are reading this, I'm so sorry. You should know that this was made by a novice. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX WAR Upgrade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Warehouse Upgrade Calculator</h1>
+    <div class="inputs">
+        <div>
+            <label for="Start">Start Level </label><input type="number" name="Start" id="" value="0" onchange="numCheck('Start')">
+            <p>Starting Capacity: <span class="startCap">0</span>t/m^3</p>
+        </div>
+        <div>
+            <label for="End">End Level </label><input type="number" name="End" id="" value="1" onchange="numCheck('End')">
+            <p>Ending Capacity: <span class="endCap">500</span>t/m^3</p>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Material</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>BBH</td>
+            <td id="BBH">24</td>
+        </tr>
+        <tr>
+            <td>BDE</td>
+            <td id="BDE">24</td>
+        </tr>
+        <tr>
+            <td>BSE</td>
+            <td id="BSE">12</td>
+        </tr>
+        <tr>
+            <td>MCG</td>
+            <td id="MCG">300</td>
+        </tr>
+        <tr>
+            <td>TRU</td>
+            <td id="TRU">20</td>
+        </tr>
+    </table>
+</body>
+<script src="calc.js"></script>
+</html>
