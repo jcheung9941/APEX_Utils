@@ -27,7 +27,7 @@ function numCheck(field) {
         console.log('plus',baseFactor[i])
         console.log(factor)
     }
-    document.querySelectorAll('th').forEach((element)=>{
+    document.querySelectorAll('td').forEach((element)=>{
         if(element.id){
             element.innerText = factor * baseValue[element.id]
         }
